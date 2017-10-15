@@ -1,0 +1,96 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #f2f2f2; 
+	font-family: "Roboto", "Calibri";
+}
+
+button{
+	background-color: #3897f0;
+	color: white;
+	border: none;
+	padding: 10px;	
+	margin: 10px 0px;
+	width: 320px;
+	font-size: 14px;
+	size: 14px;
+	transition: background-color .4s;
+}
+
+button:hover{
+	cursor: pointer;
+	background-color: #6daeec;
+}
+
+input{
+	margin: 3px 0px;
+	width: 300px;
+	padding: 10px;
+	font-size: 14px;
+	size: 14px;
+	border: solid 1px silver;
+	background-color: #fafafa;
+}
+
+h1{
+	font-family: billabong;
+	font-size: 48px;
+	margin: 5px;
+}
+
+h3, p{
+	font-family: "Roboto", "Calibri";
+	font-weight: normal;
+	color: #999;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+hr{
+	border: solid 1px #999;
+	width: 50%;
+}
+
+#header{
+	background-color: blue;
+}
+
+#form, #result{
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.content{
+	margin: 0 auto;
+	background-color: white;
+	padding: 25px 0px;
+	width: 30%;
+	text-align: center;
+	margin-top: 50px;
+	box-shadow: 0px 0px 2px grey;
+	position: relative;
+}
+
+#bottom .content{
+	margin-top: 25px;
+	padding: 20px 0;
+}
+
+#bottom p{
+	color: black;
+}
+
+#result table{
+	margin: 0 auto;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+td{
+	padding: 7px 0px;
+	border-bottom: 1px solid #999;
+}
