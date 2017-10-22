@@ -1,3 +1,8 @@
+@font-family{
+	font-family: "billabong";
+	src: url("font/Billabong.ttf");
+}
+
 body{
 	margin: 0px;
 	padding: 0px;
@@ -33,7 +38,7 @@ input{
 }
 
 h1{
-	font-family: billabong;
+	font-family: billabong, "Roboto", "Calibri";
 	font-size: 48px;
 	margin: 5px;
 }
