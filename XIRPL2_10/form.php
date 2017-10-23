@@ -6,13 +6,14 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
+
 <body>
     <form method="POST" id="form" action="hasil.php">
         <div class="content">
             <h1>DJagram</h1>
             <h3>Sign up to see photos and videos<br>from your fiends</h3>
             <hr width="80%">
-            <button>Login with Facebook</button><br>
+            <a href="facebook.com"><button type="button">Login with Facebook</button></a><br>
             <p style="margin: 5px;">OR</p>
             <input type="email" name="email" placeholder="Mobile Number or Email" required><br>
             <input type="text" name="name" placeholder="Full Name" required><br>
@@ -28,4 +29,5 @@
         </div>
     </form>
 </body>
+
 </html>
